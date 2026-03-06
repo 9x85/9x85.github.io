@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me!</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    .socials {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .socials a {
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #aaa;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .socials a:hover {
+      color: #6a0dad;
+    }
+    .socials a img {
+      width: 30px;
+      margin-right: 10px;
+    }
+    .grid-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%) -50px -50px, linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%) -50px -50px;
+      background-size: 100px 100px;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Me!</h1>
+    <div class="socials">
+      <a href="https://discord.com/users/1450009094831476777" target="_blank">
+        <a href='https://discord.com/users/1450009094831476777' target='_blank'><img src='https://i.postimg.cc/Df5NbwJ4/OIP.jpg' border='0' alt='OIP'></a>
+      </a>
+      <a href="https://t.me/Xrc_192" target="_blank">
+        <a href='https://t.me/Xrc_192' target='_blank'><img src='https://i.postimg.cc/tgtkQBFh/OIP-(1).jpg' border='0' alt='OIP-(1)'></a>
+      </a>
+    </div>
+  </div>
+
+  <div class="grid-background"></div>
+</body>
+</html>
